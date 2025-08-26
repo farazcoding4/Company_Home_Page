@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; }
+header h1 {
+  font-family: 'Nunito';
+}
+header {
+  text-align: center;
+  background-color: #0e82b0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: #FFFFF0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(180, 249, 250, 0.5);
+  flex-flow: wrap;
+
+}
+nav h2 {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  font-family: 'Nunito';  
+}
+a {
+  color: inherit;          /* Makes it use the surrounding text color */
+  text-decoration: none;   /* Removes the underline */
+  font-weight: inherit;    /* Optional: keep the same weight as normal text */
+}
+.banner {
+  background-image: url('Background_image_01.jpg'); /* if it's an image */
+  background-size: cover;                  /* scales the background to cover the area */
+  background-repeat: no-repeat;            /* prevents tiling */
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.mid-banner {
+  background-color: #FFFFF0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  font-family: 'Oswald';
+  display: flex;
+  justify-content: center;
+}
+.mid-banner h1 {
+  max-width: 900px;
+  text-align: center;
+  font-size: 3rem;
+}
+.tours h1 {
+  font-family: 'Oswald';
+}
+.tours h2 {
+  font-family: 'Nunito';
+}
+.tours {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.tour-box {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1%;
+  flex-flow: wrap;
+}
+.tour-product h3 {
+  font-family: 'Nunito';
+  max-width: 200px;
+}
+.people {
+  background-image: url('Background_image_02.jpg'); /* if it's an image */
+  background-size: cover;                  /* scales the background to cover the area */
+  background-repeat: no-repeat;            /* prevents tiling */
+  background-position: center;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+.middle-section h1 {
+  font-family: 'Oswald';
+}
+.middle-section {
+  text-align: center;
+}
+.people-image {
+  margin: 1% 4%;
+}
+.people-image h3 {
+  font-family: 'Lexend Mega';
+  max-width: 200px;
+}
+.people-name {
+  font-size: 1rem;
+  font-weight: 300;
+}
+footer h3 {
+  font-family: 'Nunito';
+  padding-top: 2%;
+}
+footer h1 {
+  font-family: 'Nunito'; 
+  padding-top: 2%;
+}
+footer {
+  text-align: center;
+}
+.copyright {
+  padding-bottom: 2%;
+}
+@media only screen and (max-width: 800px) {
+  .people {
+    color:#FFFFF0;
+  }
+}
